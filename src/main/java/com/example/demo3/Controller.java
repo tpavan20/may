@@ -11,4 +11,9 @@ public class Controller {
         return "Hello Pavan";
     }
 
+    @GetMapping("/bye")
+    public String sayBye(){
+        return "Bye Pavan";
+    }
+
 }
